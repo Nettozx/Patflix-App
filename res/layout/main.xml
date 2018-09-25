@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/statsText"
+        style="@style/TextFont"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:text="@string/hello" />
+
+    <Button
+        android:id="@+id/statsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.02"
+        android:background="@drawable/btn_default_selected"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/quizBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/btn_default_normal_blue"
+        android:text="Button1" />
+
+</LinearLayout>
